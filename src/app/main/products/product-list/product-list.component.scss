@@ -1,0 +1,13 @@
+img {
+    transition: .4s all ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+}

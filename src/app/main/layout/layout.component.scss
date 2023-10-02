@@ -1,0 +1,15 @@
+ul {
+    li {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .notfications2 {
+        display: block !important;
+    }
+
+    .notfications1 {
+        display: none !important;
+    }
+}

@@ -1,0 +1,83 @@
+<section class="">
+    <!-- Jumbotron -->
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+
+        <div class="container">
+            <div class="row gx-lg-5 align-items-center" style="text-align: center;">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="my-5 display-3 fw-bold ls-tight" style="font-size: 40px;">
+                        The best offer <br /><br />
+                        <span class="text-primary">for your Shopping</span>
+                    </h1>
+                    <p class="h5" style="color: hsl(217, 10%, 50.8%)">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet, itaque accusantium odio, soluta, corrupti aliquam
+                        quibusdam tempora at cupiditate quis eum maiores libero
+                        veritatis? Dicta facilis sint aliquid ipsum atque?
+                    </p>
+                </div>
+
+                <div class="col-lg-6 mb-lg-0 ">
+                    <div class="card my-4">
+                        <div class="card-body py-5 border border-2">
+                            <div class="mb-lg-0">
+                                <h1 class="display-3 fw-bold ls-tight" style="font-size: 40px;">
+                                    <span class="text-primary">Market.com</span>
+                                </h1>
+                                <h3 class="display-6 fw-bold ls-tight" style="font-size: 25px;">
+                                    The best solution for shopping <br />
+                                </h3>
+                            </div>
+                            <form [formGroup]="formLogin" class="mb-3 ">
+
+                                <!-- Email input -->
+                                <div class="flex justify-content-center my-5">
+                                    <span class="p-float-label">
+                                        <input [style]="{width : '100%'}" pInputText id="Email address"
+                                            formControlName="email" />
+                                        <label htmlFor="Email address">Email address</label>
+                                    </span>
+                                </div>
+                                <!-- </div> -->
+
+                                <!-- Password input -->
+                                <div class="flex justify-content-center my-5">
+                                    <span class="p-float-label">
+                                        <input type="password" [style]="{width : '100%'}" pInputText id="password"
+                                            formControlName="password" />
+                                        <label htmlFor="password">password</label>
+                                    </span>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check d-flex justify-content-center mb-4">
+                                    <!-- <button type="button" pButton pRipple (click)="showSuccess()" label="Success"
+                                        class="p-button-success"></button> -->
+
+                                    <button type="submit" pButton pRipple class="btn btn-primary btn-block px-5"
+                                        (click)="login()">
+                                        Log in
+                                    </button>
+                                </div>
+
+                                <!-- Submit button -->
+
+
+                                <!-- Register buttons -->
+                                <div class="text-center">
+                                    <span class="ml-4">have not an account:<button (click)="toRegister()" type="button"
+                                            class="btn btn-link btn-floating">
+                                            <i class="bi bi-box-arrow-in-right h5"> Sign in</i>
+                                        </button></span>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotron -->
+</section>
